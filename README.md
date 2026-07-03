@@ -1,6 +1,6 @@
-# Brightpick Next.js Half-Finished Interview App
+# Dashboard Next.js Half-Finished App
 
-This is a deliberately half-finished JavaScript-only Next.js interview project.
+This is a deliberately half-finished JavaScript-only Next.js project.
 
 The app should run, but many features are intentionally incomplete and marked with `TODO` comments.
 
@@ -22,14 +22,7 @@ npm run db:setup
 npm run dev
 ```
 
-Login credentials:
-
-```text
-operator@example.com
-password123
-```
-
-## Interview tasks to practice
+## Tasks to practice
 
 1. Finish register validation.
 2. Add password strength validation.
@@ -55,7 +48,3 @@ components/TaskTable.jsx            task table UI
 lib/auth.js                         JWT cookie helpers
 lib/db.js                           PostgreSQL connection
 ```
-
-## Why this app is half finished
-
-The goal is not to give you a finished portfolio project. The goal is to simulate an interview where a company gives you an existing codebase and asks you to complete missing pieces.
