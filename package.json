@@ -1,0 +1,29 @@
+{
+  "name": "brightpick-next-js-half-finished",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "db:setup": "node scripts/setup-db.mjs",
+    "socket": "node server/socket.js"
+  },
+  "dependencies": {
+    "bcryptjs": "latest",
+    "dotenv": "latest",
+    "jsonwebtoken": "latest",
+    "next": "latest",
+    "pg": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "socket.io": "latest",
+    "socket.io-client": "latest"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "latest",
+    "tailwindcss": "latest",
+    "postcss": "latest"
+  }
+}
