@@ -97,7 +97,7 @@ export default function DashboardClient({ user, initialTasks }) {
         <div className="mb-6 flex items-center justify-between">
           <div>
             <h2 className="text-2xl font-semibold text-gray-900">Tasks</h2>
-            <p className="text-sm text-gray-500">Manage daily warehouse operations.</p>
+            <p className="text-sm text-gray-500">Manage daily warehouse operations here.</p>
           </div>
           <button onClick={() => setModal('create')} className="rounded-lg bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700">+ New Task</button>
         </div>
