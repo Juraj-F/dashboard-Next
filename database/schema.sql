@@ -1,7 +1,7 @@
-DROP TABLE IF EXISTS tasks;
-DROP TABLE IF EXISTS users;
+DROP TABLE IF EXISTS public.tasks;
+DROP TABLE IF EXISTS public.users;
 
-CREATE TABLE users (
+CREATE TABLE public.users (
   id SERIAL PRIMARY KEY,
   name VARCHAR(100) NOT NULL,
   email VARCHAR(150) UNIQUE NOT NULL,
@@ -11,7 +11,7 @@ CREATE TABLE users (
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
-CREATE TABLE tasks (
+CREATE TABLE public.tasks (
   id SERIAL PRIMARY KEY,
   title VARCHAR(150) NOT NULL,
   description TEXT,
